@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- API 28+ -->
+    <style name="Theme.Spotiflac" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Прозрачные бары -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+
+        <!-- Разрешить контент в вырезах экрана -->
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+
+        <!-- Убрать линию-разделитель навбара -->
+        <item name="android:navigationBarDividerColor">@android:color/transparent</item>
+
+        <!-- Не используем старые полупрозрачные флаги -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+</resources>

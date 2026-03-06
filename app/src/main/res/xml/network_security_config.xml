@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Разрешаем HTTP только для вашего API-сервера -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">193.164.128.74</domain>
+    </domain-config>
+</network-security-config>

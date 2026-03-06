@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Базовая тема приложения: Material3, DayNight, без ActionBar -->
+    <style name="Theme.Spotiflac" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Прозрачные системные бары по умолчанию -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+
+        <!-- Не используем старые полупрозрачные флаги -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+
+        <!-- Цвет разделителя навбара (API 28+, см. values-v28) -->
+        <!-- Контрастная подложка навбара (API 29+, см. values-v29) -->
+    </style>
+</resources>
